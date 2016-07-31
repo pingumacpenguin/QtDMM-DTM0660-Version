@@ -1533,7 +1533,7 @@ void DMM::readDTM0660Continuous( const QByteArray & data, int id, ReadEvent::Dat
       ((in[5] & 0x0e) == 0x06) &&
       ((in[6] & 0x0f) == 0x01))
   {
-    val = "  0L";
+    val = " 0L ";
   }
   else
   {
@@ -1554,7 +1554,7 @@ void DMM::readDTM0660Continuous( const QByteArray & data, int id, ReadEvent::Dat
     }
   }
   
-  // find comma position
+  // find decimal point position
   //
   if (in[3] & 0x01)
   {
@@ -1699,7 +1699,7 @@ const char *DMM::DTM0660Digit( int byte )
   {
     if (byte == digit[n]) return c_digit[n];
   }
-      std::cerr << "Unknown DTM0660 byte " << byte << " " << std::endl;
+  std::cerr << "Unknown DTM0660 byte " << byte << " " << std::endl;
   return 0;
 }
 
