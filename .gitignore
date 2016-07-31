@@ -1,0 +1,24 @@
+*~
+*.swp
+
+pulseview
+pulseview-test
+
+# CMake cruft
+*.cmake
+CMakeCache.txt
+CMakeFiles/
+cotire/
+Makefile
+Testing/
+
+.ninja_log
+*.ninja
+
+# qt generated code
+*.qrc.depends
+moc_*.cxx
+qrc_*.cxx
+ui_*.h
+
+config.h
