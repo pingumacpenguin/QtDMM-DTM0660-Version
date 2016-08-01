@@ -79,7 +79,8 @@ struct DMMInfo dmm_info[] = {
                               {"Digitech QM1538", 3, 5, 8, 1, 1, 0, 1, 0, 0,1,1,1},  // no image
                               {"Digitech QM1537", 3, 8, 8, 1, 1, 0, 1, 0, 0,1,1,1},  // no image
                               
-                              {"Generic DTM0660", 3, 10, 8, 1, 1, 0, 1, 0, 0,1,1,1},  // no image
+			      {"Generic DTM0660 4000 count", 3, 10, 8, 1, 1, 0, 1, 0, 0,1,1,1},  // no image
+                              {"Generic DTM0660 6000 count", 3, 10, 8, 1, 1, 0, 8, 0, 0,1,1,1},  // no image
 
                               {"ELV M9803R", 5, 4, 7, 1, 1, 1, 1, 0, 0,1,1,1},       // no image
 															
@@ -131,7 +132,7 @@ struct DMMInfo dmm_info[] = {
                               {"Uni-Trend UT61B", 3, 8, 8, 1, 1, 0, 1, 0, 0,1,1,1},   // no image
                               {"Uni-Trend UT61D", 3, 8, 8, 1, 1, 0, 8, 0, 0,0,0,1},   // no image
                               
-                              {"Victor VC921", 3, 10, 8, 1, 1, 0, 8, 0, 0,1,1,1},   // no image                     
+                              {"Victor VC921", 3, 10, 8, 1, 1, 0, 1, 0, 0,1,1,1},     // no image                     
                
                               {"Voltcraft M-3610D", 1, 0, 7, 2, 1, 0, 1, 0, 0,1,1,1},  // no image
                               {"Voltcraft M-3650D", 1, 0, 7, 2, 1, 0, 1, 0, 0,1,1,1},

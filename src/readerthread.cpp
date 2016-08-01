@@ -330,8 +330,8 @@ ReaderThread::checkFormat()
   }
   else if (m_format == ReadEvent::DTM0660Continuous)// && m_length >= 14)
   {
-    fprintf( stderr, "CHECK: %02x %02x %s\n", m_fifo[m_length], (m_fifo[m_length] & 0xf0),
-             ((m_fifo[m_length] & 0xf0) == 0xe0) ? "OK" : "BAD" );
+    //fprintf( stderr, "CHECK: %02x %02x %s\n", m_fifo[m_length], (m_fifo[m_length] & 0xf0),
+    //         ((m_fifo[m_length] & 0xf0) == 0xf0) ? "OK" : "BAD" );
     if ((m_fifo[m_length] & 0xf0) == 0xf0) return true; 
     //if (m_fifo[(m_length-1+FIFO_LENGTH)%FIFO_LENGTH] & 0xf0 == 0xe0) return true; 
   }
