@@ -11,6 +11,7 @@ CMakeFiles/
 cotire/
 Makefile
 Testing/
+tmp/
 
 .ninja_log
 *.ninja

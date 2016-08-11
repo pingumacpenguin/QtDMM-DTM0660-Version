@@ -399,6 +399,7 @@ public:
          << QApplication::translate("UIDmmPrefs", "1000000", 0, QApplication::UnicodeUTF8)
          << QApplication::translate("UIDmmPrefs", "6000", 0, QApplication::UnicodeUTF8)
          << QApplication::translate("UIDmmPrefs", "40000", 0, QApplication::UnicodeUTF8)
+         << QApplication::translate("UIDmmPrefs", "80000", 0, QApplication::UnicodeUTF8)
         );
 #ifndef QT_NO_WHATSTHIS
         displayCombo->setProperty("whatsThis", QVariant(QApplication::translate("UIDmmPrefs", "Number of display digits.\n"

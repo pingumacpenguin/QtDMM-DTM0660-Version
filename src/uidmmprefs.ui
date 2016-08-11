@@ -233,6 +233,11 @@
                             <string>40000</string>
                         </property>
                     </item>
+                    <item>
+                        <property name="text">
+                            <string>80000</string>
+                        </property>
+                    </item>
                     <property name="name">
                         <cstring>displayCombo</cstring>
                     </property>

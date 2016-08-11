@@ -81,6 +81,7 @@ struct DMMInfo dmm_info[] = {
                               
 			      {"Generic DTM0660 4000 count", 3, 10, 8, 1, 1, 0, 1, 0, 0,1,1,1},  // no image
                               {"Generic DTM0660 6000 count", 3, 10, 8, 1, 1, 0, 8, 0, 0,1,1,1},  // no image
+                              {"Generic DTM0660 8000 count", 3, 10, 8, 1, 1, 0, 10, 0, 0,1,1,1},  // no image
 
                               {"ELV M9803R", 5, 4, 7, 1, 1, 1, 1, 0, 0,1,1,1},       // no image
 															
